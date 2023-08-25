@@ -1,0 +1,99 @@
+#indexBody {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(11, 11, 59, 0.8);
+}
+
+#displayBody {
+  display: flex;
+  align-items: flex-start;
+  width: 100vw;
+  /* flex-wrap: wrap; */
+}
+
+.form {
+  flex: 2;
+}
+
+#form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: center;
+  background-color: rgb(208, 223, 223);
+  margin: 10px;
+}
+
+h1 {
+  color: navy;
+  margin: 5px;
+  text-align: center;
+}
+
+#divForm {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 20px;
+}
+
+#searchTerm {
+  width: 100%;
+  height: 120%;
+}
+
+#format {
+  width: 100%;
+  height: 150%;
+}
+
+#submit {
+  background-color: rgb(103, 180, 103);
+  color: white;
+  width: 100%;
+  height: 150%;
+}
+#return {
+  background-color: rgb(223, 52, 157);
+  color: white;
+  width: 100%;
+  height: 150%;
+}
+
+#displayContainer {
+  margin: 10px;
+  flex: 8;
+}
+
+#displayMessage {
+  color: white;
+  background-color: rgba(11, 11, 59, 0.8);
+  margin: 0;
+  padding: 10px;
+  font-size: 30px;
+}
+
+#divContents {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.divCard {
+  background-color: rgb(208, 223, 223);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.divContent {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.image {
+  max-width: 900px;
+  height: auto;
+}

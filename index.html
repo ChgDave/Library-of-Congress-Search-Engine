@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Library of Congress</title>
+  </head>
+  <body id="indexBody">
+    <form id="form">
+      <h1>Library of Congress Search Engine</h1>
+      <div id="divForm">
+        <input id="searchTerm" placeholder="Search Term" />
+      </div>
+      <div id="divForm">
+        <select name="format" id="format">
+          <option value="" disabled selected>Select a format</option>
+          <option value="audio">Audio</option>
+          <option value="books">Books</option>
+          <option value="film-and-videos">Flims and Videos</option>
+          <option value="manuscript">Manuscript</option>
+          <option value="maps">Maps</option>
+          <option value="newspapers">Newspapers</option>
+          <option value="photos">Photos</option>
+          <option value="notated-music">Notated Music</option>
+          <option value="web-archives">Web Archives</option>
+        </select>
+      </div>
+      <div id="divForm"><button id="submit">Search</button></div>
+    </form>
+    <!-- <main id="displayContainer"></main> -->
+    <script src="./script.js"></script>
+  </body>
+</html>
